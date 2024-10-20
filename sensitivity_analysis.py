@@ -6,9 +6,9 @@ Created on Fri Oct 18 22:35:20 2024
 """
 
 import numpy as np
-from funcs.x_y_sensitivity_hill import x_y_sensitivity
-from funcs.file_utils import save_data, load_data
-from funcs.draw_heatmap import draw_heatmap
+from x_y_sensitivity_hill import x_y_sensitivity
+from file_utils import save_data, load_data
+from draw_heatmap import draw_heatmap
 
 def calculate_sensitivity_matrices_for_hill():
     tau_range = np.linspace(0, 20, 21)
