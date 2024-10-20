@@ -7,7 +7,7 @@ Created on Fri Oct 18 20:32:40 2024
 
 import os
 import numpy as np
-from funcs.simulation_hill_func import simulate
+from simulation_hill_func import simulate
 import matplotlib.pyplot as plt
 
 def no_delay_dynamics():
