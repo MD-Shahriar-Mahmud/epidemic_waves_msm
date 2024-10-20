@@ -2,7 +2,7 @@
 """
 Created on Sun Jun  2 21:41:23 2024
 
-@author: prism
+@author: shahriar
 """
 
 import numpy as np
