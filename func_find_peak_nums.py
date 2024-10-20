@@ -2,7 +2,7 @@
 """
 Created on Sun Jun  2 21:41:45 2024
 
-@author: prism
+@author: shahriar
 """
 
 from scipy.signal import find_peaks
