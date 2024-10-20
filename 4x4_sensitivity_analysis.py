@@ -6,12 +6,12 @@ Created on Sat Oct 19 00:42:13 2024
 """
 
 import numpy as np
-from funcs.file_utils import save_data, load_data
+from file_utils import save_data, load_data
 import os
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap, BoundaryNorm
-from funcs.simulation_hill_func import simulate
-from funcs.find_peak_nums import find_peak_nums
+from simulation_hill_func import simulate
+from find_peak_nums import find_peak_nums
 
 
 def max_tau_matrix_with_optimized_runtime():
